@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppHotel.InterfaceGrafica.Sobre"
+             Title="Sobre"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="{StaticResource Black}">
+             
+    <VerticalStackLayout>
+
+        <Label Text="Sobre:"
+               FontSize="38"
+               FontFamily="Merriweather"
+               TextColor="{StaticResource Primary}"/>
+
+        <Frame>
+            <VerticalStackLayout>
+
+                <HorizontalStackLayout>
+                    <Label Text="Ano de desenvolvimento:"
+                           FontSize="28"
+                           TextColor="{StaticResource Primary}"
+                           FontFamily="Merriweather"/>
+
+                    <Label Text="11/11/2024;"
+                           FontSize="18"
+                           TextColor="{StaticResource White}"
+                           FontFamily="Merriweather"/>
+                </HorizontalStackLayout>
+                
+                <HorizontalStackLayout>
+                    <Label Text="Nome do Desenolvedor:"
+                           FontSize="28"
+                           TextColor="{StaticResource Primary}"
+                           FontFamily="Merriweather"/>
+
+                    <Label Text="Guilherme Henrique;"
+                           FontSize="18"
+                           TextColor="{StaticResource White}"
+                           FontFamily="Merriweather"/>
+                </HorizontalStackLayout>
+
+                <HorizontalStackLayout>
+                    <Label Text="Formação do Desenvolvedor:"
+                           FontSize="28"
+                           TextColor="{StaticResource Primary}"
+                           FontFamily="Merriweather"/>
+
+                    <Label Text="ETECAP"
+                           FontSize="18"
+                           TextColor="{StaticResource White}"
+                           FontFamily="Merriweather"/>
+                </HorizontalStackLayout>
+                
+            </VerticalStackLayout>
+        </Frame>
+
+    </VerticalStackLayout>
+    
+</ContentPage>
