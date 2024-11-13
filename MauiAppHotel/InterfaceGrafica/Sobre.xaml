@@ -6,19 +6,21 @@
              NavigationPage.HasNavigationBar="False"
              BackgroundColor="{StaticResource Black}">
              
-    <VerticalStackLayout>
+    <VerticalStackLayout VerticalOptions="CenterAndExpand">
 
         <Label Text="Sobre:"
                FontSize="38"
                FontFamily="Merriweather"
-               TextColor="{StaticResource Primary}"/>
+               TextColor="{StaticResource Primary}"
+               Padding="10"/>
 
-        <Frame>
-            <VerticalStackLayout>
+        <Frame Margin="10">
+            <VerticalStackLayout Spacing="10"
+                                 Padding="10">
 
                 <HorizontalStackLayout>
                     <Label Text="Ano de desenvolvimento:"
-                           FontSize="28"
+                           FontSize="19"
                            TextColor="{StaticResource Primary}"
                            FontFamily="Merriweather"/>
 
@@ -30,7 +32,7 @@
                 
                 <HorizontalStackLayout>
                     <Label Text="Nome do Desenolvedor:"
-                           FontSize="28"
+                           FontSize="19"
                            TextColor="{StaticResource Primary}"
                            FontFamily="Merriweather"/>
 
@@ -42,7 +44,7 @@
 
                 <HorizontalStackLayout>
                     <Label Text="Formação do Desenvolvedor:"
-                           FontSize="28"
+                           FontSize="19"
                            TextColor="{StaticResource Primary}"
                            FontFamily="Merriweather"/>
 
