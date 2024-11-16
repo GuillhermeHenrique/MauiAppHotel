@@ -5,10 +5,10 @@
              Title="ContratacaoHospedagem"
              NavigationPage.HasNavigationBar="False"
              BackgroundColor="{StaticResource Black}">
-   
+
     <VerticalStackLayout VerticalOptions="CenterAndExpand"
                          Padding="10">
-        
+
         <Label Text="Cálculo da Diária"
                FontFamily="Merriweather"
                FontSize="38"
