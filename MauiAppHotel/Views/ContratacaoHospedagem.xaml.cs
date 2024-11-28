@@ -42,7 +42,7 @@ public partial class ContratacaoHospedagem : ContentPage
 
 		} catch (Exception ex) 
 		{
-			DisplayAlert("ops", ex.Message, "Ok");
+            await DisplayAlert("ops", ex.Message, "Ok");
 		}
     }
 

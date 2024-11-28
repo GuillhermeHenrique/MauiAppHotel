@@ -18,9 +18,9 @@ namespace MauiAppHotel
                     fonts.AddFont("Merriweather-Regular.ttf", "Merriweather");
                 });
 
-#if DEBUG
+ #if DEBUG
     		builder.Logging.AddDebug();
-#endif
+ #endif
 
             return builder.Build();
         }

@@ -30,7 +30,7 @@ namespace MauiAppHotel
 
             new Quarto()
             {
-                Descricao = "Suite Luxo",
+                Descricao = "Suite Básica",
                 ValorDiariaAdulto = 25,
                 ValorDiariaCrianca = 12.5
             }
